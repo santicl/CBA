@@ -1,0 +1,52 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container.p {
+    color: aqua;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.container button {
+    margin-top: 10px;
+    width: 250px;
+    height: 35px;
+}
+
+.container-items {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-items .cookie-user, .container-items .many {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    color: black;
+}
+
+.container-items h1 p, .container-items h2 p {
+    font-size: 1rem;
+    color: aquamarine;
+}

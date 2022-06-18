@@ -1,0 +1,18 @@
+{
+  "name": "cba",
+  "version": "1.0.0",
+  "description": "Algoritmo para analizar comportamientos de usuarios en una pagina web",
+  "main": "index.js",
+  "scripts": {
+    "on": "nodemon back/cba.js"
+  },
+  "author": "Santiago C Suarez",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16",
+    "uuid": "^8.3.2"
+  }
+}
